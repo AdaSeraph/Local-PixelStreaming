@@ -1,0 +1,10 @@
+dist/
+build/
+node_modules/
+logs/
+# VirtualCity: www/ is NOT ignored. It holds Epic's prebuilt frontend (with the Google
+# Fonts links removed for offline use); the offline runtime serves it as-is.
+config.json
+ssl/
+certs/
+

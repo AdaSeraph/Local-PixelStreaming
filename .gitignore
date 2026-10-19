@@ -1,0 +1,7 @@
+# 离线运行时产物: 由 Offline/Prepare-OfflineRuntime.bat 在能上网的开发机生成, 不进 Git。
+# WebServers/SignallingWebServer 下的 dist/ 和 node_modules/ 由 Epic 自带的 .gitignore 忽略。
+/Offline/node/
+/Offline/coturn/
+/Offline/runtime-info.json
+/Offline/.state/
+/Logs/
